@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "target": "es6",
+        "removeComments": false,
+        "allowSyntheticDefaultImports": true,
+        "suppressExcessPropertyErrors": true,
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "outDir": "./build"
+    },
+    "exclude": [
+        "node_modules",
+        "gulpfile.ts"
+    ]
+}
